@@ -20,8 +20,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 app:title="@string/main.nav_title.servers"
-                app:menu="@menu/bottom_nav_menu"
-                app:navigationIcon="@drawable/ic_dashboard_24dp" />
+                app:menu="@menu/bottom_nav_menu"/>
 
         </com.google.android.material.appbar.AppBarLayout>
 

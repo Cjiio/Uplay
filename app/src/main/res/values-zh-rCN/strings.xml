@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">友玩</string>
+    <string name="main.nav_title.dashboard">控制面板</string>
+    <string name="main.nav_title.servers">服务器</string>
+    <string name="main.nav_title.profile">个人中心</string>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Uplay</string>
+    <string name="main.nav_title.dashboard">Dashboard</string>
+    <string name="main.nav_title.servers">Servers</string>
+    <string name="main.nav_title.profile">Profile</string>
+</resources>

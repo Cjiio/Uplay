@@ -30,9 +30,7 @@
             android:checkable="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:layout_marginHorizontal="16dp"
-            android:layout_marginVertical="16dp"
+            android:layout_margin="16dp"
             app:strokeColor="?attr/colorError"
             app:cardBackgroundColor="?attr/colorErrorContainer"
             tools:ignore="MissingConstraints">
@@ -62,6 +60,101 @@
             </LinearLayout>
 
         </com.google.android.material.card.MaterialCardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="16dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Media -->
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="68dp"
+                        app:srcCompat="@drawable/ic_servers_24dp"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <!-- Buttons -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="horizontal">
+                        <com.google.android.material.button.MaterialButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="8dp"
+                            android:text="Action"
+                            style="?attr/borderlessButtonStyle"
+                            />
+                        <com.google.android.material.button.MaterialButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Action"
+                            style="?attr/borderlessButtonStyle"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Media -->
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="68dp"
+                        app:srcCompat="@drawable/ic_servers_24dp"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <!-- Buttons -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="horizontal">
+                        <com.google.android.material.button.MaterialButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="8dp"
+                            android:text="Action"
+                            style="?attr/borderlessButtonStyle"
+                            />
+                        <com.google.android.material.button.MaterialButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Action"
+                            style="?attr/borderlessButtonStyle"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
 
     </LinearLayout>
 

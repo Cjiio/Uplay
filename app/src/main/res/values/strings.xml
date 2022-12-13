@@ -3,4 +3,5 @@
     <string name="main.nav_title.dashboard">Dashboard</string>
     <string name="main.nav_title.servers">Servers</string>
     <string name="main.nav_title.profile">Profile</string>
+    <string name="fag.servers.create_server">Create Server</string>
 </resources>

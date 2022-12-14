@@ -19,8 +19,7 @@
             android:checkable="true"
             android:clickable="true"
             android:focusable="true"
-            app:cardBackgroundColor="?attr/colorTertiaryContainer"
-            app:strokeColor="?attr/colorSurfaceVariant">
+            app:cardBackgroundColor="?attr/colorTertiaryContainer">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -37,7 +36,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="You have not yet verified your email addres"
+                        android:text="You have not yet verified your email address"
                         android:textAppearance="?attr/textAppearanceTitleMedium"
                         android:textColor="?attr/colorTertiary"
                         android:textSize="16sp" />
@@ -58,8 +57,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
-                app:strokeColor="?attr/colorSurfaceVariant"
-                app:cardBackgroundColor="?attr/colorPrimaryContainer"
+                app:cardBackgroundColor="?attr/colorSecondaryContainer"
                 android:layout_weight="1">
 
                 <LinearLayout
@@ -75,9 +73,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="68dp"
                 android:layout_marginStart="8dp"
-                android:layout_weight="1"
-                app:strokeColor="?attr/colorSurfaceVariant"
-                app:cardBackgroundColor="?attr/colorPrimaryContainer">
+                app:cardBackgroundColor="?attr/colorSecondaryContainer"
+                android:layout_weight="1">
 
             </com.google.android.material.card.MaterialCardView>
 
@@ -92,8 +89,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
-                app:strokeColor="?attr/colorSurfaceVariant"
-                app:cardBackgroundColor="?attr/colorPrimaryContainer"
+                app:cardBackgroundColor="?attr/colorSecondaryContainer"
                 android:layout_weight="1">
 
                 <LinearLayout
@@ -110,8 +106,7 @@
                 android:layout_height="68dp"
                 android:layout_marginStart="8dp"
                 android:layout_weight="1"
-                app:strokeColor="?attr/colorSurfaceVariant"
-                app:cardBackgroundColor="?attr/colorPrimaryContainer">
+                app:cardBackgroundColor="?attr/colorSecondaryContainer">
 
             </com.google.android.material.card.MaterialCardView>
 
@@ -125,8 +120,7 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:strokeColor="?attr/colorSurfaceVariant"
-                app:cardBackgroundColor="?attr/colorPrimaryContainer"
+                app:cardBackgroundColor="?attr/colorSecondaryContainer"
                 android:layout_marginBottom="16dp"
                 android:layout_weight="1">
 
@@ -143,7 +137,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:layout_weight="1"
-                app:strokeColor="?attr/colorSurfaceVariant"
                 app:cardBackgroundColor="?attr/colorSurfaceVariant">
 
             </com.google.android.material.card.MaterialCardView>

@@ -2,6 +2,7 @@ package com.ulianla.uplay.activity.splash
 
 import android.annotation.SuppressLint
 import android.content.Intent
+import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.ulianla.uplay.activity.main.MainActivity

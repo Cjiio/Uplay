@@ -9,8 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
-        app:strokeColor="?attr/colorSurfaceVariant"
-        app:cardBackgroundColor="?attr/colorPrimaryContainer">
+        app:cardBackgroundColor="?attr/colorSecondaryContainer">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -22,7 +21,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:padding="16dp"
-                app:cardBackgroundColor="?attr/colorSecondary">
+                app:cardBackgroundColor="?attr/colorOnSecondaryContainer">
 
             </com.google.android.material.card.MaterialCardView>
 
@@ -35,7 +34,7 @@
                 android:layout_gravity="center">
 
                 <com.google.android.material.button.MaterialButton
-                    style="?attr/borderlessButtonStyle"
+                    android:id="@+id/bt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
@@ -43,7 +42,7 @@
                     android:textSize="18sp" />
 
                 <com.google.android.material.button.MaterialButton
-                    style="?attr/borderlessButtonStyle"
+                    android:id="@+id/hy"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Button"

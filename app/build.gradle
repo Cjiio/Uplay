@@ -60,4 +60,6 @@ dependencies {
     implementation 'org.slf4j:slf4j-api:1.7.32'
     //slf4j-simple 1.7.32
     implementation 'org.slf4j:slf4j-simple:1.7.32'
+    //今日头条的适配方案
+    implementation 'com.github.JessYanCoding:AndroidAutoSize:v1.2.1'
 }

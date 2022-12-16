@@ -1,13 +1,19 @@
 package com.ulianla.uplay.activity.main
 
 import android.os.Bundle
+import android.util.Log
+import android.view.Menu
+import android.view.MenuInflater
+import android.view.MenuItem
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.ulianla.uplay.R
 import com.ulianla.uplay.databinding.ActivityMainBinding
+import com.ulianla.uplay.utils.NightModeUtils
 
 class MainActivity : AppCompatActivity() {
 

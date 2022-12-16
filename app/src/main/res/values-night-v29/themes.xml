@@ -1,7 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="UplayTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:forceDarkAllowed">false</item>
         <item name="android:statusBarColor">@color/md_theme_dark_background</item>
-        <item name="android:windowLightStatusBar" >?attr/isLightTheme</item>
+        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
         <item name="colorPrimary">@color/md_theme_dark_primary</item>
         <item name="colorOnPrimary">@color/md_theme_dark_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_dark_primaryContainer</item>
@@ -28,11 +31,5 @@
         <item name="colorOnSurfaceInverse">@color/md_theme_dark_inverseOnSurface</item>
         <item name="colorSurfaceInverse">@color/md_theme_dark_inverseSurface</item>
         <item name="colorPrimaryInverse">@color/md_theme_dark_inversePrimary</item>
-    </style>
-    <style name="UplayTheme.Splash" parent="Theme.AppCompat.DayNight.NoActionBar">
-        <item name="android:windowTranslucentStatus">true</item>
-        <item name="android:windowTranslucentNavigation">true</item>
-        <item name="android:windowBackground">@drawable/bg_splash_snow</item>
-        <item name="android:windowFullscreen">true</item>
     </style>
 </resources>
